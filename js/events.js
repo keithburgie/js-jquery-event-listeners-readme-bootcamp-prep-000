@@ -13,6 +13,11 @@ function frameIt() {
 
 function pressIt() {
   
+  function(key) {
+  if (key.which == 82){
+    alert('r was pressed');
+  }
+}
 }
 
 function submitIt() {
